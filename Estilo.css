@@ -1,0 +1,53 @@
+* {
+    color: rgb(35, 35, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto;   
+}
+html {
+    background-color: black;
+}
+header{
+    background-color: #333;
+}
+header #tabla2 {
+    background-color: rgb(74, 74, 74)
+}
+header #tabla2 th{
+    border: 3px solid #444;
+}
+header #caballero{
+    background-color: #333;
+    width: 3rem;
+    height: 4rem;
+}
+header #sol{
+    background-color: #333;
+    width: 2rem;
+    height: 2rem;
+}
+main {
+    background-color: gray;
+}
+main *{
+    background-color: gray;
+    border-radius: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+main img {
+    width: 50%;
+    margin: 1rem 10rem 1rem 10rem;
+}
+main h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 0rem;
+    font-size: 5rem;
+}
+main p {
+    font-size: 2rem;
+    line-height: 1,5;
+}
