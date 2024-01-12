@@ -1,10 +1,11 @@
 * {
-    color: rgb(35, 35, 255);
+    color: lightgreen;
     font-style: normal;
+    text-align: center;
     font-size: 2rem;
-    margin: auto auto; 
+    margin: 0 auto;
     padding: 0;
-    font-family: Century Gothic,Arial,sans-serif; 
+    font-family: Century Gothic,Arial,sans-serif;
 }
 html {
     background-color: black;
@@ -28,30 +29,60 @@ header #sol{
     width: 2rem;
     height: 2rem;
 }
-main {
-    background-color: gray;
+main, footer {
+    background-color: black;
 }
-main *{
-    background-color: gray;
-    border-radius: 1rem;
+main *, footer *{
+    background-color: black;
     letter-spacing: 2px;
     word-spacing: 2px;
+}
+main h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+main h2{
+    font-size: 4rem;
 }
 main img {
     width: 50%;
     display: flex;
 }
-main h1{
-    text-transform: capitalize;
-    text-decoration: underline;
-    margin-top: 0rem;
-    font-size: 5rem;
-}
 main p {
     font-size: 2rem;
     line-height: 1,5;
 }
-h1, p{
-    text-align: center;
+main table th{
+    border: 0.25rem solid gray;
+    border-radius: 1rem;
+    border-collapse: collapse;
+
 }
+main table li{
+    border: 0.25rem solid gray;
+    border-radius: 1rem;
+    border-collapse: collapse;
+}
+footer .Envio {
+    border: 0.25rem solid gray;
+    border-radius: 1rem;
+    border-collapse: collapse;
+}
+/**Celular**/
+@media (max-width: 767px) {
+    * {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 1.40rem;
+    }
+    h2 {
+        font-size: 1.30rem;
+    }
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px) {}
+/**PC**/
+@media (min-width: 991px) {}
 
