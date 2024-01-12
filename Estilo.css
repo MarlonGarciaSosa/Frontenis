@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 0;
     font-family: Century Gothic,Arial,sans-serif;
+    background-color: black;
 }
 header{
     background-color: #333;
@@ -25,9 +26,6 @@ header #sol{
     background-color: #333;
     width: 2rem;
     height: 2rem;
-}
-main, footer {
-    background-color: black;
 }
 main *, footer *{
     background-color: black;
