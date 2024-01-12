@@ -7,9 +7,6 @@
     padding: 0;
     font-family: Century Gothic,Arial,sans-serif;
 }
-html {
-    background-color: black;
-}
 header{
     background-color: #333;
 }
@@ -37,37 +34,9 @@ main *, footer *{
     letter-spacing: 2px;
     word-spacing: 2px;
 }
-main h1{
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-size: 5rem;
-}
-main h2{
-    font-size: 4rem;
-}
 main img {
     width: 50%;
     display: flex;
-}
-main p {
-    font-size: 2rem;
-    line-height: 1,5;
-}
-main table th{
-    border: 0.25rem solid gray;
-    border-radius: 1rem;
-    border-collapse: collapse;
-
-}
-main table li{
-    border: 0.25rem solid gray;
-    border-radius: 1rem;
-    border-collapse: collapse;
-}
-footer .Envio {
-    border: 0.25rem solid gray;
-    border-radius: 1rem;
-    border-collapse: collapse;
 }
 /**Celular**/
 @media (max-width: 767px) {
@@ -85,4 +54,3 @@ footer .Envio {
 @media (min-width: 768px) and (max-width: 990px) {}
 /**PC**/
 @media (min-width: 991px) {}
-
