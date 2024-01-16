@@ -24,6 +24,10 @@ header #tabla2 {
     background-color: rgb(74, 74, 74)
 }
 
+#Ajedrez:hover, #Inicio:hover, #Animales:hover, #Bettas:hover {
+    background-color: rgb(100,100,100) ;
+}
+
 header #tabla2 th{
     border: 3px solid #444;
 }
