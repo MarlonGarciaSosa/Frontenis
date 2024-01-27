@@ -1,17 +1,16 @@
 * {
-    color: lightgreen;
-    font-style: normal;
     text-align: center;
-    font-size: 2rem;
+    border-collapse: collapse;
     margin: 0 auto;
     padding: 0;
     font-family: Century, Arial, sans-serif;
 }
 
 html {
-    background-color: black;
     padding-top: 111.2px;
 }
+
+
 
 
 /**header**/
@@ -118,64 +117,7 @@ html {
 
 
 
-
-
-/**main**/
-main *, footer *{
-    background-color: black;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+/**Main**/
+.img {
+    width: 100%;
 }
-
-main img {
-    width: 50%;
-    display: flex;
-}
-
-
-
-
-/**footer**/
-footer, footer * {
-    background-color: rgb(58, 58, 58);
-}
-
-.footer-nav__a {
-    color: rgb(78, 78, 248);
-}
-
-.footer-form__input {
-    border: 3px solid gray;
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    display: block;
-    margin-bottom: 0.50rem;
-
-}
-
-.footer-form__button {
-    border: 3px solid gray;
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    display: block;
-}
-
-
-
-
-/**Celular**/
-@media (max-width: 767px) {
-    * {
-        font-size: 1.25rem;
-    }
-    h1 {
-        font-size: 1.40rem;
-    }
-    h2 {
-        font-size: 1.30rem;
-    }
-}
-/**Tablet**/
-@media (min-width: 768px) and (max-width: 990px) {}
-/**PC**/
-@media (min-width: 991px) {}
